@@ -1,5 +1,6 @@
 """A2A coordinator for routing tasks to specialist agents."""
 
+from __future__ import annotations
 from typing import Any, Optional
 from ..agent.agent import LLMAgent
 from ..data_structures import Task

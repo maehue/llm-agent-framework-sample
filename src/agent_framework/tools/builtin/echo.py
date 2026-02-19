@@ -1,5 +1,6 @@
 """Echo tool - returns the input."""
 
+from __future__ import annotations
 from typing import Any
 from ...base.tool import BaseTool
 

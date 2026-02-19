@@ -1,5 +1,6 @@
 """Simple in-memory storage for agent memory."""
 
+from __future__ import annotations
 from typing import Any, Optional
 
 

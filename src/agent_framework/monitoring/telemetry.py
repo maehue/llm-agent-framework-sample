@@ -1,5 +1,6 @@
 """Telemetry system for event tracking and spans."""
 
+from __future__ import annotations
 from typing import Any, Callable, Optional
 from datetime import datetime
 import json

@@ -1,5 +1,6 @@
 """Ollama LLM adapter (stub implementation)."""
 
+from __future__ import annotations
 from typing import Any, Optional
 from ..base.llm import BaseLLM, LLMResponse
 

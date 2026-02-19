@@ -1,5 +1,6 @@
 """Math evaluation tool - safe arithmetic operations."""
 
+from __future__ import annotations
 from typing import Any
 import operator
 from ...base.tool import BaseTool

@@ -1,5 +1,6 @@
 """Mock LLM for testing and demonstrations."""
 
+from __future__ import annotations
 from typing import Any, Optional
 from ..base.llm import BaseLLM, LLMResponse
 

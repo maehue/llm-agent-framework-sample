@@ -4,6 +4,7 @@ BaseLLM: Abstract interface for the backbone LLM.
 This module defines the contract that all LLM implementations must follow.
 """
 
+from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import Any, Optional
 from pydantic import BaseModel

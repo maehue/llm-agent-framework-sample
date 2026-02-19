@@ -1,5 +1,6 @@
 """Tool registry for managing available tools."""
 
+from __future__ import annotations
 from typing import Optional
 from ..base.tool import BaseTool
 from ..data_structures.tool_call import ToolCall

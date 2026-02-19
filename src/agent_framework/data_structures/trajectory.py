@@ -1,5 +1,6 @@
 """Trajectory tracking for agent execution."""
 
+from __future__ import annotations
 from typing import Any, Optional
 from datetime import datetime
 from pydantic import BaseModel, Field

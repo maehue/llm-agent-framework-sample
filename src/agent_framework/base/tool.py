@@ -4,6 +4,7 @@ BaseTool: Abstract interface for agent tools.
 Tools are callable functions that agents can invoke to perform actions.
 """
 
+from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import Any
 
